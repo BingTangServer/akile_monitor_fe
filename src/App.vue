@@ -522,8 +522,8 @@ provide('handleChangeType', handleChangeType)
         <a-button type="primary" :long="true" @click="handleEditHost">更新信息</a-button>
       </div>
     </a-modal>
-    <div class="footer" style="margin-bottom: 30px">Copyright © 2016-{{new Date().getFullYear()}} BingTang's Server.</div>
-    <div class="footer" style="margin-top: 30px">Powered by <a href="https://github.com/akile-network/akile_monitor">Akile Monitor</a></div>
+    <div class="footer" style="margin-top: 30px">Copyright © 2016-{{new Date().getFullYear()}} BingTang's Server.</div>
+    <div class="footer" style="margin-bottom: 30px">Powered by <a href="https://github.com/akile-network/akile_monitor">Akile Monitor</a></div>
   </div>
 </template>
 
