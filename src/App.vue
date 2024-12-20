@@ -510,10 +510,10 @@ provide('handleChangeType', handleChangeType)
         </a-button>
       </div>
       <div class="akile-modal-content">
-        <!--a-date-picker v-model="duetime" placeholder="请选择到期时间" style="margin-bottom: 10px;width: 100%;"></a-date-picker>
+        a-date-picker v-model="duetime" placeholder="请选择到期时间" style="margin-bottom: 10px;width: 100%;"></a-date-picker>
         <a-input v-model="seller" placeholder="请输入卖家" style="margin-bottom: 10px;"></a-input>
         <a-input v-model="price" placeholder="请输入价格" style="margin-bottom: 10px;"></a-input>
-        <a-input v-model="buy_url" placeholder="请输入购买链接" style="margin-bottom: 10px;"></a-input>-->
+        <a-input v-model="buy_url" placeholder="请输入购买链接" style="margin-bottom: 10px;"></a-input>
         <a-input-password v-model="authSecret" placeholder="请输入管理密钥"></a-input-password>
       </div>
       <div class="akile-modal-action">
